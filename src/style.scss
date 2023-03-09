@@ -1,0 +1,1328 @@
+body{
+  margin: 0;
+
+  background-image: url("../public/assets/Screen Shot 2023-03-04 at 00.49.33.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+padding-bottom: 5px;
+}
+.container{
+  max-width: 1200px;
+  height: auto;
+
+}
+.top{
+  color: #484747;
+  margin: 5px auto;
+  width: 400px;
+  background-color: #d0cece;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.navbar{
+  height: 60px;
+  margin-bottom: 15px;
+  .navbar-nav{
+    margin: 0 auto;
+    .nav-item{
+      margin-right: 60px;
+    }
+    .nav-link{
+      font-size: 30px;
+      display: inline-block;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      padding-top: .5px;
+      background-image: linear-gradient(320deg, #2766dc, #6d2978);
+      will-change: transform;
+
+      overflow: hidden;
+      background-color: #ffb6ff ;
+      margin-top: 16px;
+    }
+    .nav-link:hover{
+      transform: scale(1.1);
+      font-size: 30px;
+      display: inline-block;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      background-image: linear-gradient(90deg, #dc2727, #f1d005);
+      will-change: transform;
+      padding-top: .5px;
+      overflow: hidden;
+      background-color: #ffb6ff ;
+      margin-top: 16px;
+    }
+  }
+}
+.trend-title{
+  color: black;
+}
+.trend-card{
+  background-color: #dedada;
+  .card-header{
+    height: 400px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .rating{
+      position: absolute;
+      top: 10px;
+      left: 18px;
+      width: 30px;
+      background-color: orangered;
+      color: white;
+      text-align: center;
+      border-radius: 15px;
+      font-size: 12px;
+
+    }
+  }
+  .card-body{
+    height: 100px;
+    .title{
+      height: 50px;
+      font-size: 17px;
+
+      color: darkblue;
+
+    }
+    .type{
+      font-weight: bold;
+      color: rgba(7, 54, 42, 0.84);
+    }
+    .date{
+      font-size: 12px;
+      color: orangered;
+    }
+  }
+}
+.card:hover{
+  background-color: azure;
+  border: 1px solid yellow;
+}
+.css-1okj3ks-MuiStack-root nav{
+  width: 600px;
+  height: 30px;
+  align-items: center;
+  margin:0 auto  20px auto;
+  border-bottom: 0.5px solid  rgba(19, 166, 246, 0.94);
+  ul{
+    justify-content: space-evenly;
+  }
+  ul li button{
+    color: rgba(19, 166, 246, 0.94);
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+.owl-carousel{
+  width: 400px;
+}
+.single{
+  transform: translateY(-80px);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(72, 102, 169);
+  color: white;
+  padding: 20px;
+  .single-photo{
+    width: 330px;
+    height: 580px  ;
+    border-radius: 5px;
+  }
+  .actors-m{
+    width: 350px;
+    display: block;
+    .card{
+      text-align: center;
+      width: 110px;
+      .card-header{
+        width: 100px;
+        margin: 0 auto;
+        padding:5px;
+        .actor-photo{
+          width: 80px;
+          height: 110px;
+        }
+      }
+      .card-body{
+        height: 50px;
+        padding: 0 5px;
+        .name{
+          font-weight: bold;
+          margin-top: 2px;
+          font-size: 8px;
+        }
+        .role{
+          font-size: 8px;
+        }
+      }
+    }
+    .view{
+      width: 90px;
+      height: 25px;
+      font-size: 10px;
+    }
+
+  }
+  .body{
+    .down{
+      display: none;
+    }
+  }
+  .trailer-b-mobile{
+    display: none;
+  }
+  .over-m{
+    display: none;
+  }
+
+  .right{
+    .half{
+      height: auto;
+    }
+    .trailer-b-web{
+      display: block;
+    }
+    .trailer{
+      display: none;
+    }
+
+
+    .over{
+      display: block;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      font-size: 15px;
+      line-height: 21px;
+      height: 235px;
+      text-align:justify ;
+      overflow-y: auto;
+      padding: 4px;
+    }
+    padding: 30px;
+    .lang{
+      margin-bottom: 15px;
+    }
+  }
+
+  .actors{
+    width: 350px;
+    display: block;
+    .card{
+      text-align: center;
+      width: 110px;
+      .card-header{
+        width: 100px;
+        margin: 0 auto;
+        padding:5px;
+        .actor-photo{
+          width: 80px;
+          height: 110px;
+        }
+      }
+      .card-body{
+        height: 50px;
+        padding: 0 5px;
+        .name{
+          font-weight: bold;
+          margin-top: 2px;
+          font-size: 8px;
+        }
+        .role{
+          font-size: 8px;
+        }
+      }
+    }
+    .view{
+      width: 90px;
+      height: 25px;
+      font-size: 10px;
+    }
+
+  }
+  .offcanvas{
+    background-color: rgb(72, 102, 169);
+    width: 490px;
+    .actors{
+      width: 450px;
+    }
+  }
+}
+.single-series{
+  transform: translateY(-80px);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(72, 102, 169);
+  color: white;
+  padding: 20px;
+  .single-photo{
+    width: 330px;
+    height: 570px  ;
+    border-radius: 5px;
+  }
+  .over-m{
+    display: none;
+    margin-top: 20px;
+  }
+  .actors-m{
+    display: none;
+  }
+  .trailer-b-mobile{
+    display: none;
+  }
+  .right{
+    .half{
+      height: 260px;
+    }
+    .trailer-b-web{
+      display: block;
+    }
+
+    .over{
+      display: block;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      font-size: 15px;
+      line-height: 21px;
+      height: 235px;
+      text-align:justify ;
+      overflow-y: auto;
+      padding: 4px;
+    }
+    padding: 30px;
+    .lang{
+      margin-bottom: 15px;
+    }
+  }
+
+  .actors{
+    width: 350px;
+    display: block;
+    .card{
+      text-align: center;
+      width: 110px;
+      .card-header{
+        width: 100px;
+        margin: 0 auto;
+        padding:5px;
+        .actor-photo{
+          width: 80px;
+          height: 110px;
+        }
+      }
+      .card-body{
+        height: 50px;
+        padding: 0 5px;
+        .name{
+          font-weight: bold;
+          margin-top: 2px;
+          font-size: 8px;
+        }
+        .role{
+          font-size: 8px;
+        }
+      }
+    }
+    .view{
+      width: 90px;
+      height: 25px;
+      font-size: 10px;
+    }
+
+  }
+  .offcanvas{
+    background-color: rgb(72, 102, 169);
+    width: 490px;
+    .actors{
+      width: 450px;
+    }
+  }
+}
+.single-sorting-series{
+  transform: translateY(-80px);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(72, 102, 169);
+  color: white;
+  padding: 20px;
+  .single-photo{
+    width: 330px;
+    height: 570px  ;
+    border-radius: 5px;
+  }
+  .over-m{
+    display: none;
+    margin-top: 20px;
+  }
+  .actors-m{
+    display: none;
+  }
+  .trailer-b-mobile{
+    display: none;
+  }
+  .right{
+    .half{
+      height: 260px;
+    }
+    .trailer-b-web{
+      display: block;
+    }
+
+    .over{
+      display: block;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      font-size: 15px;
+      line-height: 21px;
+      height: 235px;
+      text-align:justify ;
+      overflow-y: auto;
+      padding: 4px;
+    }
+    padding: 30px;
+    .lang{
+      margin-bottom: 15px;
+    }
+  }
+
+  .actors{
+    width: 350px;
+    display: block;
+    .card{
+      text-align: center;
+      width: 110px;
+      .card-header{
+        width: 100px;
+        margin: 0 auto;
+        padding:5px;
+        .actor-photo{
+          width: 80px;
+          height: 110px;
+        }
+      }
+      .card-body{
+        height: 50px;
+        padding: 0 5px;
+        .name{
+          font-weight: bold;
+          margin-top: 2px;
+          font-size: 8px;
+        }
+        .role{
+          font-size: 8px;
+        }
+      }
+    }
+    .view{
+      width: 90px;
+      height: 25px;
+      font-size: 10px;
+    }
+
+  }
+  .offcanvas{
+    background-color: rgb(72, 102, 169);
+    width: 490px;
+    .actors{
+      width: 450px;
+    }
+  }
+}
+//.sorting{
+//  transform: translateY(-80px);
+//  width: 100%;
+//  height: 700px;
+//  margin: 0 auto;
+//  background-color: rgb(72, 102, 169);
+//  color: white;
+//  padding: 20px;
+//  .single-photo{
+//    width: 330px;
+//    height: 570px  ;
+//    border-radius: 5px;
+//  }
+//  .trailer-b-mobile{
+//    display: none;
+//  }
+//  .right{
+//    .half{
+//      height: 260px;
+//    }
+//    .trailer-b-web{
+//      display: block;
+//    }
+//
+//    .over{
+//      display: block;
+//      margin-top: 8px;
+//      margin-bottom: 15px;
+//      font-size: 15px;
+//      line-height: 21px;
+//      height: 235px;
+//      text-align:justify ;
+//      overflow-y: auto;
+//      padding: 4px;
+//    }
+//    padding: 30px;
+//    .lang{
+//      margin-bottom: 15px;
+//    }
+//  }
+//
+//  .actors{
+//    width: 350px;
+//    display: block;
+//    .card{
+//      text-align: center;
+//      width: 110px;
+//      .card-header{
+//        width: 100px;
+//        margin: 0 auto;
+//        padding:5px;
+//        .actor-photo{
+//          width: 80px;
+//          height: 110px;
+//        }
+//      }
+//      .card-body{
+//        height: 50px;
+//        padding: 0 5px;
+//        .name{
+//          font-weight: bold;
+//          margin-top: 2px;
+//          font-size: 8px;
+//        }
+//        .role{
+//          font-size: 8px;
+//        }
+//      }
+//    }
+//    .view{
+//      width: 90px;
+//      height: 25px;
+//      font-size: 10px;
+//    }
+//
+//  }
+//  .offcanvas{
+//    background-color: rgb(72, 102, 169);
+//    width: 490px;
+//    .actors{
+//      width: 450px;
+//    }
+//  }
+//}
+.search{
+  .card{
+    background-color: #dedada;
+    .card-header{
+      height: 400px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      .rating{
+        position: absolute;
+        top: 10px;
+        left: 18px;
+        width: 30px;
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 12px;
+
+      }
+    }
+    .card-body{
+      height: 100px;
+      .title{
+        height: 50px;
+        font-size: 17px;
+
+        color: darkblue;
+
+      }
+      .type{
+        font-weight: bold;
+        color: rgba(7, 54, 42, 0.84);
+      }
+      .date{
+        font-size: 12px;
+        color: orangered;
+      }
+    }
+  }
+  .card:hover{
+    background-color: azure;
+    border: 1px solid yellow;
+  }
+  .pagi{
+    display: none;
+  }
+  .nothing{
+    font-size: 35px;
+    color: #ec6666;
+    font-weight: bold;
+
+
+
+
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 576px){
+  .container{
+    max-width: 576px;
+    height: auto;
+
+  }
+  .top{
+    color: #484747;
+    margin: 5px auto;
+    width: 300px;
+    background-color: #d0cece;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 35px;
+  }
+  .navbar{
+    .navbar-toggler{
+      background-color: #4b7ee0;
+      margin: 0 auto;
+      color: darkred;
+      height: 40px;
+      margin-bottom: 5px;
+    }
+    .navbar-collapse{
+      background-color: darkgrey;
+      z-index: 555;
+      width: 376px;
+      text-align: center;
+    }
+    height: 60px;
+    margin-bottom: 15px;
+    .navbar-nav{
+      margin: 0 auto;
+      .nav-item{
+        margin-right: 60px;
+      }
+      .nav-link{
+        font-size: 30px;
+        display: inline-block;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        padding-top: .5px;
+        background-image: linear-gradient(320deg, #2766dc, #6d2978);
+        will-change: transform;
+
+        overflow: hidden;
+        background-color: #ffb6ff ;
+        margin-top: 16px;
+      }
+      .nav-link:hover{
+        transform: scale(1.1);
+        font-size: 30px;
+        display: inline-block;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, #dc2727, #f1d005);
+        will-change: transform;
+        padding-top: .5px;
+        overflow: hidden;
+        background-color: #ffb6ff ;
+        margin-top: 16px;
+      }
+    }
+  }
+  .trend-title{
+    color: white;
+  }
+  .trend-card{
+    background-color: #dedada;
+    width: 250px;
+    margin: 0 auto;
+    .card-header{
+      height: 300px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      .rating{
+        position: absolute;
+        top: 10px;
+        left: 18px;
+        width: 30px;
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 12px;
+
+      }
+    }
+    .card-body{
+      height: 100px;
+      .title{
+        height: 50px;
+        font-size: 17px;
+
+        color: darkblue;
+
+      }
+      .type{
+        font-weight: bold;
+        color: rgba(7, 54, 42, 0.84);
+      }
+      .date{
+        font-size: 12px;
+        color: orangered;
+      }
+    }
+  }
+  .sorting-card{
+    background-color: #dedada;
+    width: 250px;
+    margin: 0 auto;
+    .card-header{
+      height: 300px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      .rating{
+        position: absolute;
+        top: 10px;
+        left: 18px;
+        width: 30px;
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 12px;
+
+      }
+    }
+    .card-body{
+      height: 100px;
+      .title{
+        height: 50px;
+        font-size: 17px;
+
+        color: darkblue;
+
+      }
+      .type{
+        font-weight: bold;
+        color: rgba(7, 54, 42, 0.84);
+      }
+      .date{
+        font-size: 12px;
+        color: orangered;
+      }
+    }
+  }
+  .card:hover{
+    background-color: azure;
+    border: 1px solid yellow;
+  }
+  .css-1okj3ks-MuiStack-root nav{
+    width: 550px;
+    height: 30px;
+    align-items: center;
+    margin:0 auto  80px auto;
+    ul{
+      justify-content: space-evenly;
+    }
+    ul li button{
+      color: rgba(19, 166, 246, 0.94);
+      margin-right: 20px;
+      font-size: 30px;
+      line-height: 25px;
+    }
+  }
+  .owl-carousel{
+    width: 400px;
+  }
+  .single{
+    transform: translateY(-20px);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(72, 102, 169);
+    color: white;
+    padding: 20px;
+    .header{
+      height: 90px;
+    }
+    .single-photo{
+      width: 230px;
+      height: 300px  ;
+      border-radius: 5px;
+    }
+    .body{
+      .down{
+        display: block;
+      }
+      .actors-m{
+        width: 500px;
+        display: none;
+        .card{
+          text-align: center;
+          width: 110px;
+          .card-header{
+            width: 100px;
+            margin: 0 auto;
+            padding:5px;
+            .actor-photo{
+              width: 80px;
+              height: 110px;
+            }
+          }
+          .card-body{
+            height: 50px;
+            padding: 0 5px;
+            .name{
+              font-weight: bold;
+              margin-top: 2px;
+              font-size: 8px;
+            }
+            .role{
+              font-size: 8px;
+            }
+          }
+        }
+        .view{
+          width: 90px;
+          height: 25px;
+          font-size: 10px;
+        }
+
+      }
+
+    }
+    .iframe{
+
+    }
+    .over-box-w{
+      display: none;
+    }
+    .trailer-b-mobile{
+      display: block;
+    }
+    .right{
+      .trailer-w{
+        display: none;
+      }
+      .trailer-m{
+        display: block;
+      }
+      .trailer-b-web{
+        display: none;
+      }
+
+      .half{
+        height: 260px;
+      }
+      .over{
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 21px;
+        height: 235px;
+        text-align:justify ;
+        overflow-y: auto;
+        padding: 4px;
+      }
+      padding: 30px;
+      .lang{
+        margin-bottom: 15px;
+      }
+
+    }
+
+    .actors{
+      width: 500px;
+      display: block;
+      .card{
+        text-align: center;
+        width: 110px;
+        .card-header{
+          width: 100px;
+          margin: 0 auto;
+          padding:5px;
+          .actor-photo{
+            width: 80px;
+            height: 110px;
+          }
+        }
+        .card-body{
+          height: 50px;
+          padding: 0 5px;
+          .name{
+            font-weight: bold;
+            margin-top: 2px;
+            font-size: 8px;
+          }
+          .role{
+            font-size: 8px;
+          }
+        }
+      }
+      .view{
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
+      }
+
+    }
+    .offcanvas{
+      background-color: rgb(72, 102, 169);
+      width: 100%;
+      height: 100%;
+      .actors{
+        width: 450px;
+      }
+    }
+  }
+  .single-series{
+    transform: translateY(-20px);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(72, 102, 169);
+    color: white;
+    padding: 20px;
+    .header{
+      height: 90px;
+      margin-bottom: 20px;
+    }
+    .single-photo{
+      width: 250px;
+      height: 300px  ;
+      border-radius: 5px;
+    }
+    .over-m{
+      display: block;
+      margin-top: 20px;
+    }
+    .actors-m{
+      width: 100%;
+      display: block;
+      .card{
+        text-align: center;
+        width: 110px;
+        .card-header{
+          width: 100px;
+          margin: 0 auto;
+          padding:5px;
+          .actor-photo{
+            width: 80px;
+            height: 110px;
+          }
+        }
+        .card-body{
+          height: 50px;
+          padding: 0 5px;
+          .name{
+            font-weight: bold;
+            margin-top: 2px;
+            font-size: 8px;
+          }
+          .role{
+            font-size: 8px;
+          }
+        }
+      }
+      .view{
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
+      }
+
+    }
+    .right{
+
+      .half{
+        height: 260px;
+      }
+      .over{
+        display: none;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 21px;
+        height: 235px;
+        text-align:justify ;
+        overflow-y: auto;
+        padding: 4px;
+      }
+      padding: 30px;
+      .lang{
+        margin-bottom: 5px;
+      }
+
+    }
+
+    .actors{
+      width: 500px;
+      display: none;
+      .card{
+        text-align: center;
+        width: 110px;
+        .card-header{
+          width: 100px;
+          margin: 0 auto;
+          padding:5px;
+          .actor-photo{
+            width: 80px;
+            height: 110px;
+          }
+        }
+        .card-body{
+          height: 50px;
+          padding: 0 5px;
+          .name{
+            font-weight: bold;
+            margin-top: 2px;
+            font-size: 8px;
+          }
+          .role{
+            font-size: 8px;
+          }
+        }
+      }
+      .view{
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
+      }
+
+    }
+    .offcanvas{
+      background-color: rgb(72, 102, 169);
+      width: 100%;
+      height: 100%;
+      .actors{
+        width: 450px;
+      }
+    }
+  }
+  .single-sorting-series{
+    transform: translateY(-80px);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(72, 102, 169);
+    color: white;
+    padding: 20px;
+    .single-photo{
+      width: 330px;
+      height: 570px  ;
+      border-radius: 5px;
+    }
+    .over-m{
+      display: none;
+      margin-top: 20px;
+    }
+    .actors-m{
+      display: none;
+    }
+    .trailer-b-mobile{
+      display: none;
+    }
+    .right{
+      .half{
+        height: 260px;
+      }
+      .trailer-b-web{
+        display: block;
+      }
+
+      .over{
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 21px;
+        height: 235px;
+        text-align:justify ;
+        overflow-y: auto;
+        padding: 4px;
+      }
+      padding: 30px;
+      .lang{
+        margin-bottom: 15px;
+      }
+    }
+
+    .actors{
+      width: 350px;
+      display: block;
+      .card{
+        text-align: center;
+        width: 110px;
+        .card-header{
+          width: 100px;
+          margin: 0 auto;
+          padding:5px;
+          .actor-photo{
+            width: 80px;
+            height: 110px;
+          }
+        }
+        .card-body{
+          height: 50px;
+          padding: 0 5px;
+          .name{
+            font-weight: bold;
+            margin-top: 2px;
+            font-size: 8px;
+          }
+          .role{
+            font-size: 8px;
+          }
+        }
+      }
+      .view{
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
+      }
+
+    }
+    .offcanvas{
+      background-color: rgb(72, 102, 169);
+      width: 490px;
+      .actors{
+        width: 450px;
+      }
+    }
+  }
+  .sorting{
+    transform: translateY(-80px);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(72, 102, 169);
+    color: white;
+    padding: 20px;
+    .header{
+      height: 90px;
+    }
+    .single-photo{
+      width: 230px;
+      height: 300px  ;
+      border-radius: 5px;
+    }
+    .iframe{
+
+    }
+    .over-box-w{
+      display: none;
+    }
+    .trailer-b-mobile{
+      display: block;
+    }
+    .right{
+      .trailer-w{
+        display: none;
+      }
+      .trailer-m{
+        display: block;
+      }
+      .trailer-b-web{
+        display: none;
+      }
+
+      .half{
+        height: 260px;
+      }
+      .over{
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 21px;
+        height: 235px;
+        text-align:justify ;
+        overflow-y: auto;
+        padding: 4px;
+      }
+      padding: 30px;
+      .lang{
+        margin-bottom: 15px;
+      }
+
+    }
+
+    .actors{
+      width: 500px;
+      display: block;
+      .card{
+        text-align: center;
+        width: 110px;
+        .card-header{
+          width: 100px;
+          margin: 0 auto;
+          padding:5px;
+          .actor-photo{
+            width: 80px;
+            height: 110px;
+          }
+        }
+        .card-body{
+          height: 50px;
+          padding: 0 5px;
+          .name{
+            font-weight: bold;
+            margin-top: 2px;
+            font-size: 8px;
+          }
+          .role{
+            font-size: 8px;
+          }
+        }
+      }
+      .view{
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
+      }
+
+    }
+    .offcanvas{
+      background-color: rgb(72, 102, 169);
+      width: 100%;
+      height: 100%;
+      .actors{
+        width: 450px;
+      }
+    }
+  }
+  .search{
+    .card{
+      background-color: #dedada;
+      .card-header{
+        height: 400px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+        .rating{
+          position: absolute;
+          top: 10px;
+          left: 18px;
+          width: 30px;
+          background-color: orangered;
+          color: white;
+          text-align: center;
+          border-radius: 15px;
+          font-size: 12px;
+
+        }
+      }
+      .card-body{
+        height: 100px;
+        .title{
+          height: 50px;
+          font-size: 17px;
+
+          color: darkblue;
+
+        }
+        .type{
+          font-weight: bold;
+          color: rgba(7, 54, 42, 0.84);
+        }
+        .date{
+          font-size: 12px;
+          color: orangered;
+        }
+      }
+    }
+    .card:hover{
+      background-color: azure;
+      border: 1px solid yellow;
+    }
+    .pagi{
+      display: none;
+    }
+    .nothing{
+      font-size: 35px;
+      color: #ec6666;
+      font-weight: bold;
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
